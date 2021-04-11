@@ -1,0 +1,33 @@
+.grid-container {
+ display: grid;
+ grid-template-columns: 200px 150px 150px 200px;
+ grid-template-rows: 25px 120px 120px;
+ gap: 2px;
+}
+.grid-container div{
+    background-color: rgb(12, 199, 21);
+    text-align: center;
+    color: darkblue;
+    border: 2px solid floralwhite;
+}
+.item1{
+     grid-column: span  2 ;
+
+}
+.item2{
+    grid-column: span 2;
+}
+.item3{
+     grid-row: 2/4 ;
+}
+.item6{
+    grid-row: span 2;
+}
+.item10{
+    grid-column:span 2;
+}
+.item9{
+    grid-column:span 2 ;
+}
+
+

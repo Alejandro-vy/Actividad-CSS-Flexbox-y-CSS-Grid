@@ -1,0 +1,49 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+:root {
+	--primary-dark-cyan: hsl(185, 75%, 39%);
+	--primary-very-dark-blue: hsl(229, 23%, 23%);
+	--primary-dark-blue: hsl(227, 10%, 46%);
+	--dark_gray: hsl(0, 0%, 91%);
+}
+
+.flex-container{
+    display: flex;
+    width:350px;
+	height:350px;
+	line-height:520px;
+	margin:0px auto;
+	background-color:hsl(0, 0%, 91%);
+    position: center;
+    
+}
+body{
+    background: darkcyan;
+    font-family: 'Krub',sans-serif;
+   
+}
+img{
+    display:table;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#avatar{
+    position: relative;
+    right: 220px;
+    top: 100px;
+    border-radius: 80px;
+    
+}
+.info{
+    display: flex;
+    flex-direction:  column;
+    size: 18px;
+    align-items: center;
+    height: 200;
+    width: 300;
+}
+   
+
+
+
+
